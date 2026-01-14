@@ -1,0 +1,249 @@
+/* ===== RESET ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ===== BACKGROUND ===== */
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: url("./bg-royal-blue.png") no-repeat center center fixed;
+  background-size: cover;
+}
+
+/* ===== CONTAINER ===== */
+.box {
+  width: 92%;
+  max-width: 420px;
+  padding: 24px 18px;
+  text-align: center;
+}
+
+/* ===== LOGOS ===== */
+.top-logos {
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.top-logos img {
+  width: 46px;
+  filter: drop-shadow(0 0 6px rgba(255,255,255,0.6));
+}
+
+/* ===== TEXT ===== */
+h1 {
+  color: #ffffff;
+  font-size: 22px;
+  margin-bottom: 6px;
+}
+
+h2 {
+  color: #ffffff;
+  font-size: 18px;
+  margin: 26px 0 14px;
+}
+
+.sub {
+  color: #cfd9ff;
+  font-size: 14px;
+  margin-bottom: 22px;
+}
+
+/* ===== BUTTONS (GLASS + GLOW) ===== */
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  padding: 16px;
+  margin: 16px 0;
+  border-radius: 18px;
+
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 600;
+  color: #ffffff;
+
+  background: rgba(20, 25, 45, 0.55);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+
+  box-shadow:
+    0 0 12px rgba(120,170,255,0.45),
+    0 0 28px rgba(120,170,255,0.25);
+
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn:hover {
+  transform: translateY(-3px) scale(1.03);
+  box-shadow:
+    0 0 18px rgba(160,200,255,0.7),
+    0 0 40px rgba(160,200,255,0.45);
+}
+
+.btn i {
+  font-size: 18px;
+}
+
+/* ===== WHATSAPP ===== */
+.whatsapp {
+  background: rgba(20, 60, 40, 0.6);
+  box-shadow:
+    0 0 14px rgba(37,211,102,0.7),
+    0 0 32px rgba(37,211,102,0.45);
+}
+
+.whatsapp:hover {
+  box-shadow:
+    0 0 22px rgba(37,211,102,0.95),
+    0 0 48px rgba(37,211,102,0.7);
+}
+
+/* ===== DIVIDER ===== */
+hr {
+  border: none;
+  height: 1px;
+  background: linear-gradient(
+    to right,
+    transparent,
+    rgba(255,255,255,0.4),
+    transparent
+  );
+  margin: 32px 0;
+}/* ===== RESET ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ===== BACKGROUND ===== */
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: url("./bg-royal-blue.png") no-repeat center center fixed;
+  background-size: cover;
+}
+
+/* ===== CONTAINER ===== */
+.box {
+  width: 92%;
+  max-width: 420px;
+  padding: 24px 18px;
+  text-align: center;
+}
+
+/* ===== LOGOS ===== */
+.top-logos {
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.top-logos img {
+  width: 46px;
+  filter: drop-shadow(0 0 6px rgba(255,255,255,0.6));
+}
+
+/* ===== TEXT ===== */
+h1 {
+  color: #ffffff;
+  font-size: 22px;
+  margin-bottom: 6px;
+}
+
+h2 {
+  color: #ffffff;
+  font-size: 18px;
+  margin: 26px 0 14px;
+}
+
+.sub {
+  color: #cfd9ff;
+  font-size: 14px;
+  margin-bottom: 22px;
+}
+
+/* ===== BUTTONS (GLASS + GLOW) ===== */
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  padding: 16px;
+  margin: 16px 0;
+  border-radius: 18px;
+
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 600;
+  color: #ffffff;
+
+  background: rgba(20, 25, 45, 0.55);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+
+  box-shadow:
+    0 0 12px rgba(120,170,255,0.45),
+    0 0 28px rgba(120,170,255,0.25);
+
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn:hover {
+  transform: translateY(-3px) scale(1.03);
+  box-shadow:
+    0 0 18px rgba(160,200,255,0.7),
+    0 0 40px rgba(160,200,255,0.45);
+}
+
+.btn i {
+  font-size: 18px;
+}
+
+/* ===== WHATSAPP ===== */
+.whatsapp {
+  background: rgba(20, 60, 40, 0.6);
+  box-shadow:
+    0 0 14px rgba(37,211,102,0.7),
+    0 0 32px rgba(37,211,102,0.45);
+}
+
+.whatsapp:hover {
+  box-shadow:
+    0 0 22px rgba(37,211,102,0.95),
+    0 0 48px rgba(37,211,102,0.7);
+}
+
+/* ===== DIVIDER ===== */
+hr {
+  border: none;
+  height: 1px;
+  background: linear-gradient(
+    to right,
+    transparent,
+    rgba(255,255,255,0.4),
+    transparent
+  );
+  margin: 32px 0;
+}
